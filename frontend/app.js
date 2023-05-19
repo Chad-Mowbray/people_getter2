@@ -1,5 +1,5 @@
 window.onload = () => {
-  const baseUrl ="http://127.0.0.1:8000" 
+  const baseUrl ="http://35.174.165.182/:8000" 
 
   const listBtn = document.querySelector("#listBtn")
   const userSelect = document.querySelector("#userSelect")
