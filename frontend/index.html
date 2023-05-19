@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PeopleGetter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to PeopleGetter</h1>
+    </header>
+
+    <main>
+        <button id="listBtn">Get Everyone</button>
+        <div id="listContainer"></div>
+
+        <div class="dropdown">
+          <label for="userSelect" id="userDropdownBtn">Get Someone</label>
+            <div id="userDropdownContent">
+                <select id="userSelect">
+                    <option value="">-- Select a number --</option>
+                    <!-- Generate options dynamically using JavaScript -->
+                </select>
+            </div>
+            <div id="userContainer"></div>
+        </div>
+    </main>
+</body>
+</html>
